@@ -10,15 +10,17 @@ Benny = Teamleder
 
 2. Kunden skal komme med et forslag til et IOT produkt og stille nogle produktkrav.
 
-Jeg vil gerne funnele min gambling addiction, og vil gerne tracke det på en smart måde kan det mon lade sig?
+Jeg har smidt 200 låse væk og kan ikke huske en kode på mere end 2 cifre. Derfor vil jeg gerne have lavet en lås der kan hjælpe mig.
 
 
 3. Teamlederen skal finde ud af, hvad udviklerne skal gøre med hensyn til det foreslåede produkt.
 
-Vi skal have skabt forbindelse og kenskab med ESP-32 og sensormodulerne "DISPLAY" & "RFID-Brik/Scanner" 
+Kundens behov er en lås der ikke kræver en nøgle eller det at huske en kode eller kombination. Til det problem er vi kommet på en løsning der bruger din telefonen til og låse op når du er tæt på når man trykker på låse knappen.
 
-4. Udviklerne i teamet skal diskutere og finde ud af, hvordan de kan gennemføre kundens forslag i et projekt.
 
-Koden skal skrives i micropython, så skal vi have undersøgt hvordan vi sætter en database.
+4. Udviklerne i teamet skal diskutere og finde ud af, hvordan de kan gennemføres
+
+Løsningen kan udføres i Swiftcode til iOS eller Kotlin til Android. 
+Telefonen skal bruge bluetooth til og connecte via en App hvis den er tæt på, og signalet skal krypteres så app'en prompter et Login hvilket kunden kan gøre via Face ID, 
 
 5. Dokumenter din løsning i Gitlab og navngiv filen med “Projekt opstart”.

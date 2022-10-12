@@ -50,7 +50,7 @@ Telefonen skal bruge bluetooth til og connecte via en App hvis den er tæt på, 
 
 5. Dokumenter din løsning i Gitlab og navngiv filen med “Projekt opstart”.
 
-# Pimp my slides 12-10
+# Pimp my slides 12/10
 
 1. Hvilken inspiration har du fået fra andre grupper?
 - Det kunne have været fedt med et real-world projekt

@@ -9,6 +9,7 @@
 * vandkar
 * ledninger
 * transister
+* Pumpe
 
 
 # moscow

@@ -1,6 +1,40 @@
 # Gruppe 4
 
 ### Gitlab repository til anvendelse i vores fag Projekt.
+# Tempratur Måling
+
+## Component list
+temp sensor
+esp32
+vandkar
+ledninger
+transister
+
+
+# moscow
+## must have
+temp måling
+
+
+## should have
+beskytelse for et eller andet.
+
+## could have
+upload temps to data base
+
+## won't have
+nemid
+mitid
+blockchain
+
+## furps
+funcunality - 9
+usability - 10
+reliability - 5
+preformance - 8
+supportability - 5
+
+
 
 # Normer, regler og procedurer for vores hold
 - Giv holdet besked før time, hvis du er forsinket eller fraværende.
@@ -23,44 +57,3 @@
 
 - Godt teamarbejde er fleksibilitet, gensidig respekt og anerkendelse, struktureret arbejde og en konstruktiv holdning.
 
-# Projekt Opstart
-
-1. Fordel rollerne mellem jer i teamet (en kunde, en teamleder og udviklerer)
-
-Rune = Kunde
-
-David, Camilla = Udvikler
-
-Benny = Teamleder
-
-2. Kunden skal komme med et forslag til et IOT produkt og stille nogle produktkrav.
-
-Jeg har smidt 200 låse væk og kan ikke huske en kode på mere end 2 cifre. Derfor vil jeg gerne have lavet en lås der kan hjælpe mig.
-
-
-3. Teamlederen skal finde ud af, hvad udviklerne skal gøre med hensyn til det foreslåede produkt.
-
-Kundens behov er en lås der ikke kræver en nøgle eller det at huske en kode eller kombination. Til det problem er vi kommet på en løsning der bruger din telefonen til og låse op når du er tæt på når man trykker på låse knappen.
-
-
-4. Udviklerne i teamet skal diskutere og finde ud af, hvordan de kan gennemføres
-
-Løsningen kan udføres i Swiftcode til iOS eller Kotlin til Android. 
-Telefonen skal bruge bluetooth til og connecte via en App hvis den er tæt på, og signalet skal krypteres så app'en prompter et Login hvilket kunden kan gøre via Face ID, 
-
-5. Dokumenter din løsning i Gitlab og navngiv filen med “Projekt opstart”.
-
-# Pimp my slides 12/10
-
-1. Hvilken inspiration har du fået fra andre grupper?
-- Det kunne have været fedt med et real-world projekt
-- Vi kunne godt have haft en reel prototype
-- kanban er meget fedt
-
-2. Hvordan kan du forbedre din pråsentation?
-- Lidt bedre organiseret
-- Evt. kanban og flere diagrammer (UML?)
-
-3. Hvad vil du tilføje til din præsentation
-- Tidsplan, Gantt
-- holdopsætning slide

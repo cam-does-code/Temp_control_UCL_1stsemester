@@ -4,11 +4,12 @@
 # Tempratur Måling
 
 ## Component list
-temp sensor
-esp32
-vandkar
-ledninger
-transister
+* temp sensor
+* esp32
+* vandkar
+* ledninger
+* transister
+* Pumpe
 
 
 # moscow

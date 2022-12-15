@@ -78,12 +78,8 @@ def run():
                 relay.value(1)
         time.sleep(1)
 
-while True:
-    if on_off.value() == 1:
-        set_temperature()
-        run()
-    else:
-        continue
+set_temperature()
+run()
 
 # while True:
 #   # RELAY ON

@@ -2,6 +2,7 @@ from machine import Pin, I2C
 from time import sleep
 import machine, onewire, ds18x20, time
 import ssd1306
+from machine import Pin, PWM
 
 # ESP32 GPIO 32
 relay = Pin(32, Pin.OUT)
@@ -72,14 +73,11 @@ while True:
         lcd.text("Set temp:" + str(set_temp),10,16) 
         lcd.text("Current:" + str(ds_sensor.read_temp(rom)),10,40)
         lcd.show() 
-        if ds_sensor.read_temp(rom) >= set_temp:
-            if x != 0:
-                relay.value(0)
-                x = 0
-        elif ds_sensor.read_temp(rom) < set_temp:
-            if x != 1:
-                relay.value(1)
-                x = 1
+        if ds_sensor.read_temp(rom) < set_temp:
+            relay.value(1)
+        else:
+            relay.value(0)
+
 
           
     time.sleep(1)
